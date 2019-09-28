@@ -1,4 +1,16 @@
-#new-item{
+#new-item {
+    height: 15rem;
+    width: 15rem;
+    margin: 3rem;
+}
+
+#stocks {
+    height: 15rem;
+    width: 15rem;
+    margin: 3rem;
+}
+
+#update-stock {
     height: 15rem;
     width: 15rem;
     margin: 3rem;
