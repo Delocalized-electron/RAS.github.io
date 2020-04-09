@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- JavaScripts -->
+    <script src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 </head>
 
 <body>
@@ -40,15 +42,15 @@
         </div>
     </nav>
     <div>
-        <button class="btn btn-danger" id="new-item" href="newitem.html">
+        <button class="btn btn-danger" id="new-item" onclick="location.href = 'newitem.html';">
             New Item
         </button>
-        <button class="btn btn-warning" id="stocks" href="stocks.html">
+        <button class="btn btn-warning" id="stocks" onclick="location.href = 'stocks.html';">
             Stocks
         </button>
     </div>
     <div>
-        <button class="btn btn-dark" id="update-stock" onclick="">
+        <button class="btn btn-dark" id="update-stock" onclick="location.href = 'update_stocks.html';">
             Update Stock
         </button>
 
